@@ -20,7 +20,7 @@ pipeline {
         
         stage('Git Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/jatin765/Demo-Shopping-Cart.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/jatin765/Demo-Shopping-Kart.git']])
             }
         }
         
